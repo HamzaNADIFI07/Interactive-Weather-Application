@@ -1,0 +1,37 @@
+.dataComparison {
+    margin: 20px 0px;
+  }
+  
+  .meteoData {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dataCell {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid #ccc; 
+  }
+  
+  .favorite {
+    background-color: gold;
+    font-weight: bold;
+  }
+  
+  .meteoData > .favorite {
+    font-weight: bold;
+  }
+
+  .categorie {
+    font-weight: bold;
+  }
+  
+  div > h2 {
+    background: linear-gradient(to left,
+    gold, blue);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+  }

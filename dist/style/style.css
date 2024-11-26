@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+  font-family : Verdana, Helvetica, Arial, sans-serif;
+  background-color: white;
+  margin : 0% 2%;
+}
+
+
+select { 
+  font-size : larger
+}
+
+body > p {
+  margin : 10px 20px;
+  color : #888;
+}
+body > p a {
+  color : #666;
+}
+
+body > h1 {
+  background: linear-gradient(to left,
+  gold, blue);
+  background-clip: text;
+  display: inline;
+  color: transparent;
+}

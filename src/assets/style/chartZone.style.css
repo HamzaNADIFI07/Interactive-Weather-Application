@@ -1,0 +1,21 @@
+.chartZone {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+  }
+  
+  .button-group {
+    display: flex;
+  }
+  
+  .button-group button {
+    flex : 1;
+    margin: 5px 10px;
+    font-size: 16px;
+    background: linear-gradient(to left,
+    gold, blue);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+  }
+  
